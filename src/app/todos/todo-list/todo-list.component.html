@@ -1,0 +1,16 @@
+<ul id="sortable" class="list-unstyled">
+  <li class="ui-state-default" *ngFor="let todo of todos">
+    <div class="checkbox">
+      <label>
+        <input type="checkbox" value="" />{{todo.name}}</label>
+    </div>
+  </li>
+</ul>
+<div class="todo-footer">
+  <strong><span class="count-todos"></span></strong> Items Left
+  <span class="filter">
+          <a class="all" href="#/">All</a>
+          <a class="active" href="#/">ACTIVE</a>
+          <a class="completed" href="#/">COMPLETED</a>
+          </span>
+</div>

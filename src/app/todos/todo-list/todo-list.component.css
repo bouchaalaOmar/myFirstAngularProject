@@ -1,0 +1,33 @@
+li.ui-state-default{
+  background:#fff;
+  border:none;
+  border-bottom:1px solid #ddd;
+}
+
+li.ui-state-default:last-child{
+  border-bottom:none;
+}
+
+.todo-footer{
+  background-color:#F4FCE8;
+  margin:0 -20px -10px -20px;
+  padding: 10px 20px;
+  width:100%;
+
+}
+
+.todo-footer .filter{
+  margin: 100px;
+}
+
+.filter .all{
+  margin:20px;
+}
+.filter .active{
+  margin:20px;
+}
+.filter .completed{
+  margin:20px;
+}
+
+
