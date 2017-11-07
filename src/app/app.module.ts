@@ -10,6 +10,7 @@ import { HeroesComponent } from './heroes/heroes.component';
 import { TodoComponent } from './todos/todo/todo.component';
 import {TodoListComponent} from './todos/todo-list/todo-list.component';
 import {AppRoutingModule} from './app-routing.module';
+import {TodosModule} from '../todos/todos.module';
 
 
 
@@ -26,7 +27,8 @@ import {AppRoutingModule} from './app-routing.module';
   imports: [
     BrowserModule,
     FormsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    TodosModule
   ],
   providers: [HeroService],
   bootstrap: [AppComponent]
